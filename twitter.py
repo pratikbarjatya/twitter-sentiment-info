@@ -1,4 +1,9 @@
-# author = rhnvrm <hello@rohanverma.net>
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Twitter Sentiment Analysis
+@author: Pratik Barjatiya <pratikbarjatya@gmail.com>
+"""
 
 import os
 import re
@@ -8,9 +13,9 @@ from textblob import TextBlob
 
 
 class TwitterClient(object):
-    '''
+    """
     Generic Twitter Class for the App
-    '''
+    """
     def __init__(self, query, retweets_only=False, with_sentiment=False):
         # keys and tokens from the Twitter Dev Console
         consumer_key = os.environ['CONSUMER_KEY']

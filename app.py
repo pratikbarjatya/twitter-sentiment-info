@@ -1,4 +1,9 @@
-# author = Pratik Barjatiya 
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Twitter Sentiment Analysis
+@author: Pratik Barjatiya
+"""
 import os
 from flask import Flask, request, render_template, jsonify
 from twitter import TwitterClient
