@@ -30,7 +30,7 @@ class TwitterClient(object):
             self.retweets_only = retweets_only
             self.with_sentiment = with_sentiment
             self.api = tweepy.API(self.auth)
-            self.tweet_count_max = 100  # To prevent Rate Limiting
+            self.tweet_count_max = 1000  # To prevent Rate Limiting
         except:
             print("Error: Authentication Failed")
 
@@ -64,11 +64,8 @@ class TwitterClient(object):
             if not recd_tweets:
                 pass
             for tweet in recd_tweets:
-                parsed_tweet = {}
+                parsed_tweet = {'text': tweet.text, 'user': tweet.user.screen_name}
 
-                parsed_tweet['text'] = tweet.text
-                parsed_tweet['user'] = tweet.user.screen_name
-                
                 if self.with_sentiment == 1:
                     parsed_tweet['sentiment'] = self.get_tweet_sentiment(tweet.text)
                 else:
