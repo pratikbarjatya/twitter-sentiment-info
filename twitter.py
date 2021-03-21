@@ -16,6 +16,7 @@ class TwitterClient(object):
     """
     Generic Twitter Class for the App
     """
+
     def __init__(self, query, retweets_only=False, with_sentiment=False):
         # keys and tokens from the Twitter Dev Console
         consumer_key = os.environ['CONSUMER_KEY']
