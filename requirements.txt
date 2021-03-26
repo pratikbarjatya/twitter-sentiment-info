@@ -200,7 +200,7 @@ python3-openid==3.2.0
 pytz==2020.4
 pytzdata==2020.1
 PyWavelets==1.1.1
-PyYAML==5.3.1
+PyYAML==5.4
 pyzmq==21.0.1
 Quandl==3.5.3
 regex==2020.11.13
