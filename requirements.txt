@@ -63,7 +63,7 @@ elasticsearch==7.10.1
 elasticsearch-dsl==7.3.0
 email-validator==1.1.2
 entrypoints==0.3
-fastapi==0.63.0
+fastapi==0.65.2
 filelock==3.0.12
 Flask==1.1.2
 Flask-AppBuilder==3.1.1
