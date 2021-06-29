@@ -179,7 +179,7 @@ pydantic==1.7.4
 PyDictionary==2.0.1
 pyemd==0.5.1
 PyGithub==1.54
-Pygments==2.7.3
+Pygments==2.7.4
 PyJWT==1.7.1
 pyparsing==2.4.7
 pyperclip==1.8.1
