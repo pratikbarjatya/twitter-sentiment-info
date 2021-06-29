@@ -4,7 +4,7 @@ alembic==1.5.3
 ansible==2.10.7
 ansible-base==2.10.3
 antiorm==1.2.1
-apache-airflow==2.0.0
+apache-airflow==2.0.2
 apache-airflow-providers-ftp==1.0.0
 apache-airflow-providers-http==1.0.0
 apache-airflow-providers-imap==1.0.0
