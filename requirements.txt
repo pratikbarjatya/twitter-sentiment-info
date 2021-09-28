@@ -1,7 +1,7 @@
 absl-py==0.11.0
 aiohttp==3.7.4
 alembic==1.5.3
-ansible==2.10.7
+ansible==4.2.0
 ansible-base==2.10.3
 antiorm==1.2.1
 apache-airflow==2.1.2
